@@ -45,7 +45,7 @@ board target live in `firmware/app`; point `BOARD_ROOT` at the app so the
 build system finds the board:
 
 ```sh
-BOARD_ROOT=firmware/app west build -b gadget/nrf54l15/cpuapp firmware/app
+BOARD_ROOT=$PWD/firmware/app west build -b gadget/nrf54l15/cpuapp firmware/app
 ```
 
 ## Product page
