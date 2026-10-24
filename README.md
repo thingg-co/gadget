@@ -10,8 +10,9 @@ keep the network alive.
 
 ## Status
 
-Architecture locked. PCB rev A schematic in progress. Firmware not started.
-Product page in `web/`, destined for gadget.thingg.co.
+Architecture locked. PCB rev A schematic in progress. Firmware scaffold
+compiles for the rev A board (hello world on the nRF54L15). Product page
+in `web/`, destined for gadget.thingg.co.
 
 ## What it is
 
@@ -32,8 +33,20 @@ Three roles, one design:
 - `docs/decisions.md` - architecture decision records
 - `docs/hardware-spec.md` - BOM, pin map, power budget
 - `hardware/` - KiCad project, rev A schematic in progress
-- `firmware/` - Zephyr application (planned)
+- `firmware/` - Zephyr application, builds for the rev A board
 - `web/` - product page for gadget.thingg.co
+
+## Building the firmware
+
+Requires the nRF Connect SDK v3.3.4 workspace and the Zephyr SDK 0.16.x
+(arm-zephyr-eabi) on the host. See `firmware/README.md` for the full
+toolchain setup. The application and its custom `gadget/nrf54l15/cpuapp`
+board target live in `firmware/app`; point `BOARD_ROOT` at the app so the
+build system finds the board:
+
+```sh
+BOARD_ROOT=firmware/app west build -b gadget/nrf54l15/cpuapp firmware/app
+```
 
 ## Product page
 
