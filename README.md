@@ -17,7 +17,7 @@ Product page in `web/`, destined for gadget.thingg.co.
 
 Three roles, one design:
 
-- **Handset.** RISC-V-free ARM board: Nordic nRF54L15, dual SX1262 LoRa
+- **Handset.** ARM board, Cortex-M33: Nordic nRF54L15, dual SX1262 LoRa
   radios, e-ink display, GPS, 3000 mAh cell. Long-range LoRa mesh plus a
   2.4 GHz data plane with 20 concurrent Bluetooth links per node.
 - **Home base station.** The same core with an SX1303 16-channel LoRa
