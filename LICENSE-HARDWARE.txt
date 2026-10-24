@@ -1,0 +1,17 @@
+The hardware designs in this repository (schematics, PCB layouts, case
+files) are licensed under the CERN Open Hardware Licence Version 1.0,
+Non-Commercial variant (CERN-OHL-NC v1.0).
+
+The canonical license text is published at:
+
+  https://ohwr.org/cern_ohl_nc_v1.txt
+
+That URL is the controlling text of this license. The full text will be
+mirrored into this file as soon as it can be fetched; until then, refer to
+the URL above. In summary: you may use, study, modify, and share these
+designs for any non-commercial purpose, provided you preserve the licence
+notice and make any modifications available under the same terms.
+
+This license choice matches the project mission. Nothing in this project
+exists to make money, and the license keeps it that way for everyone who
+builds on it.

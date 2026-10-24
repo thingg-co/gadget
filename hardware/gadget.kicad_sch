@@ -1,0 +1,22 @@
+(kicad_sch
+  (version 20230121)
+  (generator "eeschema")
+  (generator_version "7.0")
+  (uuid "3f1c7b2a-9d4e-4f6b-8c0a-2e5d7f9b1a3c")
+  (paper "A4")
+  (title_block
+    (title "Gadget Handset")
+    (date "2026-10-24")
+    (rev "A")
+    (company "")
+    (comment 1 "nRF54L15 + dual SX1262 + e-ink + GPS")
+    (comment 2 "Rev A schematic in progress")
+  )
+  (lib_symbols)
+  (sheet_instances
+    (path "/"
+      (page "1")
+    )
+  )
+  (symbol_instances)
+)

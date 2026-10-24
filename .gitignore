@@ -1,0 +1,23 @@
+# KiCad
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_mod-bak
+*.bck
+*.bak
+*.tmp
+*.autosave
+_autosave-*.kicad_sch
+_autosave-*.kicad_pcb
+fp-info-cache
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Builds
+build/
+dist/
+
+# OS
+.DS_Store

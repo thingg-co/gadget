@@ -1,0 +1,43 @@
+{
+  "board": {
+    "design_settings": {
+      "defaults": {
+        "apply_defaults": false
+      }
+    }
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "eda": {},
+  "id": 0,
+  "last_client": "kicad",
+  "last_edit": {
+    "board": {},
+    "schematic": {},
+    "schematic_stage": [],
+    "id": 0
+  },
+  "meta": {
+    "filename": "gadget.kicad_pro",
+    "version": 1
+  },
+  "net": {},
+  "nets": [],
+  "page": {
+    "basename": "gadget",
+    "id": 0,
+    "title": "Gadget"
+  },
+  "project": {
+    "name": "gadget",
+    "path": ""
+  },
+  "repository": {},
+  "schematic": {},
+  "sheets": [],
+  "text_offsets": {
+    "schematic": {}
+  }
+}
